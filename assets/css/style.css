@@ -200,7 +200,7 @@ nav li {
     border: 2px gold solid;
     border-radius: 50% 50% 0 0;
     height: 40px;
-    text-shadow: 1px 1px 1px black;
+    /* text-shadow: 1px 1px 1px black; */
     background-color: red;
     background-image: linear-gradient(to bottom left, rgb(112, 112, 253), red, yellow);
     flex-direction: Column;
