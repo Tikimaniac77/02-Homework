@@ -12,11 +12,12 @@ Download the repository when ready
 
 ## Usage
 
-![screencap of my site is:](assets/images/homework02.png)
+![My Portfolio:](assets/images/Screenshot1.png)
+![](assets/images/Screenshot2.png)
 
 ## Credits
 
-[the url for my site is:](https://tikimaniac77.github.io/02-Homework/)
+[the url for my site is:](https://tikimaniac77.github.io/My-Portfolio/)
 
 ## License
 
