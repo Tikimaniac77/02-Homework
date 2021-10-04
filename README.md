@@ -4,7 +4,7 @@
 
 My portfolio page!
 
-Includes my bio, placeholders for my projects, and contact info.
+Includes my bio, my projects, and contact info.
 
 ## Installation
 
