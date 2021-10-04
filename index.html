@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,85 +9,120 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
+
 <body>
 
     <Header>
         <h1 class="name"> Hi! I'm Michael Wachtel.</h1>
-        
+
         <p> Handle: <span class="Tikimaniac77">Tikimaniac77</span></p>
-        
+
         <div id="header-bio">
-            <img src="./assets/images/PRISM.jpg" alt="Pyramid Chakras Man" 
-            height="200" width="200">
-        
-            <p id="bio"> I am a designer from the Golden State, Good ol' California. </p>
+            <img src="./assets/images/headshot.png" alt="My Profile Picture" id="
+            profileImg">
+
+            <p id="bio"> I am a designer from the Golden State. Good ol' California. </p>
         </div>
 
         <nav>
             <ul>
                 <li><a href="#about-me">About Me</a></li>
-                <li><a href="#my-work">My Work</a></li>
+                <li><a href="#promo">My Work</a></li>
                 <li><a href="#contact-me">Contact Me</a></li>
             </ul>
         </nav>
 
     </Header>
 
+    <!-- Need to split this 1 section into 3 Sections -->
+    <Section id="content">
+        <div id="about-me">
+            <h1><a> About Me</a></h1>
 
-<Section id="content">
-    <div>
-        <h1><a id="about-me"> About Me</a></h1>
-        <Aside>
-            <p id="about-me-content">Home grown in the Inland Empire. 
-                I'm a father, husband, and friend to all who know me. 
+            <p id="about-me-content">Home grown in the Inland Empire.
+                I'm a father, husband, and friend to all who know me.
                 I believe in working hard, but I also believe in working smart.
                 Things don't always need to be a struggle.</p>
-        </Aside>
-    </div>
 
-    <div>
-        <h1><a id="my-work"> My Work</a></h1>
-        <Aside class="aside-mywork">
+        </div>
 
-            <a href=https://tikimaniac77.github.io/Projects><figure id="promo" >
-                <h2> Project 1 Holder </h2>
-                <img id="promo-img" src="./assets/images/GY-Logo.jpg" alt="Generation Y Logo" 
-                height="200" width= "200">
-            </figure></a>
+        <div id="responsiveDiv">
+            <h1><a id="my-work"> My Work</a></h1>
+            <Aside class="aside-mywork">
 
-            <section class="other-work">
-                <a href=https://tikimaniac77.github.io/Projects>
-                <figure class="other-work-figure">
 
-                    <h3>Project 2</h3>
-                    <img class="other-work-class" src="./assets/images/balance.jpg" alt="balanced pyramid" height="125" width ="125">
+                <figure id="promo">
+
+
+                    <a href=https://chriscast94.github.io/mack-project-skills>
+                        <h2> Today I Learned...</h2>
+                        <img id="promo-img" src="./assets/images/TodayILearned.png"
+                            alt="Today I Learned Web Application" height="200" width="250">
+                    </a>
+                    <div id="promo-info">
+                        <p><a href=https://github.com/chriscast94/mack-project-skills>Link to GitHub Repo</a></p>
+                        <p>Take a look at one of the Web Applications I worked on as Lead Javascript.</p>
+                        <!-- <p> I was the lead on Javascript for this.</p> -->
+                    </div>
                 </figure>
-                </a>
-            </section>  
 
-            <section class="other-work">
-                <a href=https://tikimaniac77.github.io/Projects>
-                <figure class="other-work-figure">
-            
-                <h3>Project 3</h3>
-                <img class="other-work-class" src="./assets/images/whytime.jpg" alt="why time" height="125" width="125">
 
-                </figure>
-                </a>
-            </section>
-        </Aside>         
-    </div>
+                <div class="other-work">
+                    <a href=https://tikimaniac77.github.io/06-Homework-ServersideAPIs>
+                        <figure class="other-work-figure">
 
-    <div id="div-contact-me">
-        <h1><a id="contact-me"> Contact Me</a></h1>
-        <Aside id="contact-me-content">
-            <p>Email me:</p>
-            <a href = "mailto:  michaelwachtel@yahoo.com">michaelwachtel@yahoo.com</a>
-            
-            <a href="https://github.com/Tikimaniac77">Link to My Github</a>
-        </Aside>
-    </div>
-</Section>
+                            <div class="otherHeaders">
+                                <h3>Weather Dashboard</h3>
+                                <a href=https://github.com/Tikimaniac77/06-Homework-ServersideAPIs>GitHub Repo</a>
+                            </div>
+
+                            <img class="other-work-class" src="./assets/images/weather.png"
+                                alt="My Weather Dashboard Web Application" height="125" width="175">
+                            </img>
+                        </figure>
+                    </a>
+                </div>
+
+                <div class="other-work">
+                    <a href=https://tikimaniac77.github.io/04-Homework-TimedQuiz>
+                        <figure class="other-work-figure">
+
+                            <div class="otherHeaders">
+                                <h3>Timed Quiz</h3>
+                                <p>
+                                    <a href=https://github.com/Tikimaniac77/04-Homework-TimedQuiz>GitHub Repo</a>
+                                </p>
+                            </div>
+                            <img class="other-work-class" src="./assets/images/timed-quiz.png"
+                                alt="An Example Time Quiz Web Application I Made." height="100" width="125">
+                            <a href=https://tikimaniac77.github.io/04-Homework-TimedQuiz></a>
+                            </img>
+
+                        </figure>
+                    </a>
+                </div>
+            </Aside>
+        </div>
+
+        <div id="div-contact-me">
+            <h1><a id="contact-me"> Contact Me</a></h1>
+            <Aside id="contact-me-content">
+                <p>Email me:</p>
+                <a href="mailto:michaelwachtel@yahoo.com?">michaelwachtel@yahoo.com</a>
+                
+                <p>Links:</p>
+                <a href="https://github.com/Tikimaniac77">My GitHub Profile</a>
+
+                <a href="https://www.linkedin.com/in/michael-wachtel-86b099b1/">My LinkedIn</a>
+
+                <a href="assets/images/Michael Wachtel - Brand and Resume.zip" download>Download My Brand Statement & Resume</a>
+
+
+            </Aside>
+        </div>
+
+    </Section>
 
 </body>
+
 </html>
