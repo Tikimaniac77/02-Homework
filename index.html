@@ -2,127 +2,127 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github - Michael Wachtel</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Michael Wachtel - Web Developer</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
-<body>
-
-    <Header>
-        <h1 class="name"> Hi! I'm Michael Wachtel.</h1>
-
-        <p> Handle: <span class="Tikimaniac77">Tikimaniac77</span></p>
-
-        <div id="header-bio">
+<body class="all">
+    <div class="container-fluid">
+        <div class="row text-center bg-primary">
+            <h1>Welcome! I'm Michael Wachtel</h1>
             <img src="./assets/images/headshot.png" alt="My Profile Picture" id="
             profileImg">
-
-            <p id="bio"> I am a designer from the Golden State. Good ol' California. </p>
+            <h2>I am a designer from the Golden State. Good ol' California.</h2>
         </div>
+        <ul class="nav nav-pills nav-justified bg-success">
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#my-work">My Work</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+    </div>
 
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#my-work">My Work</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-            </ul>
-        </nav>
 
-    </Header>
 
-    <!-- Need to split this 1 section into 3 Sections -->
-    <Section id="content">
-        <div id="about-me">
-            <h1><a> About Me</a></h1>
+    
 
-            <p id="about-me-content">Home grown in the Inland Empire.
-                I'm a father, husband, and friend to all who know me.
-                I believe in working hard, but I also believe in working smart.
-                Things don't always need to be a struggle.</p>
+    <div class="container-fluid">
+        <div class="jumbotron text-center">
+            <div class="row text-center">
+                <h1><a id="about-me"> About Me</a></h1>
+                <p>Home grown in the Inland Empire.
+                    I'm a father, husband, and friend to all who know me.
+                    I believe in working hard, but I also believe in working smart.
+                    Things don't always need to be a struggle.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="jumbotron text-center">
+            <h1><a id="my-work">My Work</a></h1>
+
+            <div class="col-md-6 bg-info">
+                <a href=https://guarded-crag-64291.herokuapp.com>
+                    <h3>Game Reviewer</h3>
+                    <img src="./assets/images/game-reviewer.jpg" class="img-responsive img-thumbnail"
+                        alt="the Game Reviwer Application" />
+                </a>
+                <p>
+                    Take a look at the Game-Reviewer Site deployed to Heroku. I was lead on back-end and Javascript. Using Node.JS, MySQL, Express.js, the RAWG API, etc.
+                </p>
+                <p>
+                    <a class="btn btn-primary btn-lg" href="https://github.com/Tikimaniac77/Game-Reviewer"
+                        role="button">GitHub Repo</a>
+                </p>
+            </div>
+
+            <div class="col-md-3 bg-info" >
+                <a href=https://chriscast94.github.io/mack-project-skills>
+                    <h3>Today I Learned</h3>
+                    <img src="./assets/images/TodayILearned.png" class="img-responsive img-thumbnail"
+                        alt="The Today I Learned Application" />
+                </a>
+                <p>
+                    Take a look at one of the Web Application I worked on as Lead
+                    Javacript
+                </p>
+                <p>
+                    <a class="btn btn-primary btn-lg" href="https://github.com/chriscast94/mack-project-skills"
+                        role="button">GitHub Repo</a>
+                </p>
+            </div>
+
+            <div class="col-md-3 bg-info">
+                <a href=https://tikimaniac77.github.io/Weather-Dashboard>
+                    <h3>Weather Dashboard</h3>
+                    <img src="./assets/images/weather.png" class="img-responsive img-thumbnail"
+                        alt="Weather Dashboard" />
+                </a>
+                <p>
+                    This is a weather dashboard I created. Have a look!
+                </p>
+                <p>
+                    <a class="btn btn-primary btn-lg" href="https://github.com/Tikimaniac77/Weather-Dashboard"
+                        role="button">GitHub Repo</a>
+                </p>
+            </div>
+
+           
 
         </div>
+    </div>
 
-        <div id="responsiveDiv">
-            <h1><a id="my-work"> My Work</a></h1>
-            <Aside class="aside-mywork">
-
-
-                <figure id="promo">
-
-
-                    <a href=https://chriscast94.github.io/mack-project-skills>
-                        <h2> Today I Learned...</h2>
-                        <img id="promo-img" src="./assets/images/TodayILearned.png"
-                            alt="Today I Learned Web Application" height="200" width="250">
-                    </a>
-                    <div id="promo-info">
-                        <p><a href=https://github.com/chriscast94/mack-project-skills>Link to GitHub Repo</a></p>
-                        <p>Take a look at one of the Web Applications I worked on as Lead Javascript.</p>
-                        <!-- <p> I was the lead on Javascript for this.</p> -->
-                    </div>
-                </figure>
-
-
-                <div class="other-work">
-                    <a href=https://tikimaniac77.github.io/Weather-Dashboard>
-                        <figure class="other-work-figure">
-
-                            <div class="otherHeaders">
-                                <h3>Weather Dashboard</h3>
-                                <a href=https://github.com/Tikimaniac77/Weather-Dashboard>GitHub Repo</a>
-                            </div>
-
-                            <img class="other-work-class" src="./assets/images/weather.png"
-                                alt="My Weather Dashboard Web Application" height="125" width="175">
-                            </img>
-                        </figure>
-                    </a>
-                </div>
-
-                <div class="other-work">
-                    <a href=https://tikimaniac77.github.io/Timed-Quiz>
-                        <figure class="other-work-figure">
-
-                            <div class="otherHeaders">
-                                <h3>Timed Quiz</h3>
-                                <p>
-                                    <a href=https://github.com/Tikimaniac77/Timed-Quiz>GitHub Repo</a>
-                                </p>
-                            </div>
-                            <img class="other-work-class" src="./assets/images/timed-quiz.png"
-                                alt="An Example Time Quiz Web Application I Made." height="100" width="125">
-                            <a href=https://github.com/Tikimaniac77/Timed-Quiz></a>
-                            </img>
-
-                        </figure>
-                    </a>
-                </div>
-            </Aside>
+    <div class="container-fluid">
+        <div class="jumbotron text-center">
+            <div class="row text-center">
+                <h1><a id="contact-me">Contact Me</a></h1>
+                <ul class="nav nav-pills nav-justified">
+                    <li><a href="mailto:michaelwachtel@yahoo.com?">michaelwachtel@yahoo.com</a></li>
+                    <li><a href="https://github.com/Tikimaniac77">My GitHub Profile</a></li>
+                    <li><a href="https://www.linkedin.com/in/michael-wachtel-86b099b1/">My LinkedIn</a></li>
+                    <li><a href="assets/images/Michael Wachtel - Brand and Resume.zip" download>Download My Brand
+                            Statement & Resume</a></li>
+                </ul>
+            </div>
         </div>
-
-        <div id="div-contact-me">
-            <h1><a id="contact-me"> Contact Me</a></h1>
-            <Aside id="contact-me-content">
-                <p>Email me:</p>
-                <a href="mailto:michaelwachtel@yahoo.com?">michaelwachtel@yahoo.com</a>
-                
-                <p>Links:</p>
-                <a href="https://github.com/Tikimaniac77">My GitHub Profile</a>
-
-                <a href="https://www.linkedin.com/in/michael-wachtel-86b099b1/">My LinkedIn</a>
-
-                <a href="assets/images/Michael Wachtel - Brand and Resume.zip" download>Download My Brand Statement & Resume</a>
+    </div>
 
 
-            </Aside>
-        </div>
 
-    </Section>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
