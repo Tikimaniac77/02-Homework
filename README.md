@@ -12,8 +12,7 @@ Download the repository when ready
 
 ## Usage
 
-![My Portfolio:](assets/images/Screenshot1.png)
-![](assets/images/Screenshot2.png)
+![My Portfolio:](assets/images/portfolioImg.jpg)
 
 ## Credits
 
